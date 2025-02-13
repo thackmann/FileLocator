@@ -12,7 +12,7 @@ devtools::install_github("thackmann/FileLocator", subdir = "FileLocator")
 ## Use 
 In R, run
 ```r
-fileLocator::getCurrentFileLocation()
+FileLocator::getCurrentFileLocation()
 ```
 
 ## License
