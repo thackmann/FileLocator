@@ -1,0 +1,19 @@
+Package: FileLocator
+Title: Retrieves the Directory of a Script
+Version: 1.0.0
+Authors@R: 
+    person(given = "Timothy",
+           family = "Hackmann",
+           role = c("aut", "cre"),
+           email = "tjhackmann@ucdavis.edu",
+           comment = c(ORCID = "https://orcid.org/0000-0001-6455-1862"))
+Description: This package retrieves the directory of a currently running R script.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    rstudioapi,
+    tibble,
+    tidyr
